@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Private project documents
+要件定義書.pdf

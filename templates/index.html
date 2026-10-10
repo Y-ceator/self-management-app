@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己管理最適化アプリ</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; background-color: #f4f6f9; }
+        .container { background: white; padding: 30px; border-radius: 10px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        #countdown-area { font-size: 24px; color: #ff4757; font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>生活最適化アプリ（テスト起動）</h1>
+        <p>Python(Flask) × JavaScript の連携テスト中</p>
+        
+        <!-- ここを後でJavaScriptが書き換えます -->
+        <div id="countdown-area">読み込み中...</div>
+    </div>
+
+    <!-- Flaskのルールに沿ってJavaScriptを読み込むおまじない -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
